@@ -23,13 +23,16 @@
     <Content Include="build\main\xref-main.html" />
     <Content Include="build\txsmain\warn-txsmain.txt" />
     <Content Include="build\txsmain\xref-txsmain.html" />
+    <Content Include="config.ini" />
     <Content Include="dist\config.ini" />
     <Content Include="dist\jd_maotai.png" />
     <Content Include="dist\txsmain.exe" />
     <Content Include="jd_maotai.png" />
     <Content Include="jd_maotai_20210102\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\readme.txt" />
     <Content Include="qr_code.png" />
+    <Content Include="README.md" />
     <Content Include="requirements.txt" />
+    <Content Include="txsmain.exe" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="error\exception.py" />

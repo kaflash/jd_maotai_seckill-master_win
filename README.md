@@ -1,3 +1,10 @@
+##
+# kaflash
+# 引用自 pwy5150的版本
+在win下面运行有问题,做了修改,现在直接exe就可以运行, 别忘记修改config.ini
+
+by kaflash  2021/1/11
+# 
 # 近期先不修改了，有啥问题会写代码的自己改改吧！炒股赚钱去了。
 # Jd_Seckill
 请安装python 3.8 运行此项目，就不会出现各种问题了
@@ -133,3 +140,5 @@ windows目前已经打包完毕，请下载`jd_maotai_20210102.zip`文件，解�
 ## 感谢
 ##### 非常感谢原作者 https://github.com/zhou-xiaojun/jd_mask 提供的代码
 ##### 也非常感谢 https://github.com/wlwwu/jd_maotai 进行的优化
+
+##### 也非常感谢 https://github.com/pwy5150/jd_maotai_seckill 进行的优化
