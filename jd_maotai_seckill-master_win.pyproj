@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e3659619-3ce5-492f-87d6-d102036d0bd5}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>txsMain.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="build\main\warn-main.txt" />
+    <Content Include="build\main\xref-main.html" />
+    <Content Include="build\txsmain\warn-txsmain.txt" />
+    <Content Include="build\txsmain\xref-txsmain.html" />
+    <Content Include="dist\config.ini" />
+    <Content Include="dist\jd_maotai.png" />
+    <Content Include="dist\txsmain.exe" />
+    <Content Include="jd_maotai.png" />
+    <Content Include="jd_maotai_20210102\lxml\isoschematron\resources\xsl\iso-schematron-xslt1\readme.txt" />
+    <Content Include="qr_code.png" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="error\exception.py" />
+    <Compile Include="error\__init__.py" />
+    <Compile Include="helper\jd_helper.py" />
+    <Compile Include="helper\__init__.py" />
+    <Compile Include="main.py" />
+    <Compile Include="maotai\config.py" />
+    <Compile Include="maotai\jd_logger.py" />
+    <Compile Include="maotai\jd_spider_requests.py" />
+    <Compile Include="maotai\timer.py" />
+    <Compile Include="maotai\__init__.py" />
+    <Compile Include="txsMain.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="build\main" />
+    <Folder Include="build\txsmain" />
+    <Folder Include="dist" />
+    <Folder Include="error" />
+    <Folder Include="helper" />
+    <Folder Include="jd_maotai_20210102" />
+    <Folder Include="jd_maotai_20210102\lxml\" />
+    <Folder Include="jd_maotai_20210102\lxml\isoschematron\" />
+    <Folder Include="jd_maotai_20210102\lxml\isoschematron\resources\" />
+    <Folder Include="jd_maotai_20210102\lxml\isoschematron\resources\xsl\" />
+    <Folder Include="jd_maotai_20210102\lxml\isoschematron\resources\xsl\iso-schematron-xslt1" />
+    <Folder Include="maotai" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
